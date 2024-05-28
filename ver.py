@@ -6,6 +6,9 @@ def main():
     #stringPlusString()
     #stringPlusString2()
 
+    # 型の変更
+    #cast()
+
 
 
 def calculate():
@@ -43,6 +46,16 @@ def stringPlusString2():
 
     hello_world = str1*str2
     print(hello_world)
+
+def cast():
+    str_seven = "7"
+    int_seven = 7
+
+    ## str -> int
+    print(type(int(str_seven)))
+
+    ## int -> str
+    print(type(str(int_seven)))
 
 if __name__ == "__main__":
     main()
