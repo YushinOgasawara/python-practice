@@ -1,13 +1,13 @@
 def main():
     # 計算
-    #calculate()
+    calculate()
 
     # 文字列同士の連結
-    #stringPlusString()
-    #stringPlusString2()
+    stringPlusString()
+    stringPlusString2()
 
     # 型の変更
-    #cast()
+    cast()
 
 
 
