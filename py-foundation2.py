@@ -22,6 +22,11 @@ def roop():
     list = ["a", "b", "c", "d"]
     for i in list:
 	    print(i)
+    # nが10になるまで繰り返し
+    n = 0
+    while n < 10:
+        print(n)
+        n += 1 # +1するのを忘れずに。
 
 
 if __name__ == "__main__":
