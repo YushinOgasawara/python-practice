@@ -5,7 +5,9 @@ def main():
     #繰り返し
     roop()
     
-    #test
+    #関数呼び出し
+    total = sum(1, 3)
+    print(total)
 
 def branching():
     num = 10
@@ -27,6 +29,11 @@ def roop():
     while n < 10:
         print(n)
         n += 1 # +1するのを忘れずに。
+
+def sum(x, y):
+    sum_num = x+y
+    return sum_num
+
 
 
 if __name__ == "__main__":
