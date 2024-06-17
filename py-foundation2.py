@@ -19,6 +19,10 @@ def branching():
 def roop():
     for i in range(5, 10, 1):
         print(i)
+    list = ["a", "b", "c", "d"]
+    for i in list:
+	    print(i)
+
 
 if __name__ == "__main__":
     main()
